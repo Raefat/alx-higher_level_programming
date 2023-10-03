@@ -2,9 +2,9 @@
 
 def uppercase(str):
     upper = ''
-    for l in str:
-        if ord(l) >= 97 and ord(l) <= 122:
-            upper += char(ord(l) - 32)
-        elif ord
-            upper += l
+    for letter in str:
+        if ord(letter) >= 97 and ord(letter) <= 122:
+            upper += char(ord(letter) - 32)
+        else:
+            upper += letter
     print(upper)
