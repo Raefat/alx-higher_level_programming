@@ -2,4 +2,4 @@
 for letter in range(97, 123):
     if chr(letter) == 'e' or chr(letter) == 'q':
         continue
-    print(f"{chr(letter)}")
+    print("{}".format(chr(letter)))
