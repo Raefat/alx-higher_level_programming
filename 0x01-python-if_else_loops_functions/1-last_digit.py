@@ -6,7 +6,7 @@ if number < 0:
     number = -number
     isNegative = True
 
-num = -number if isNeagtive else number
+num = -number if isNegative else number
 if num < 6:
     print(f"Last digit of {number} is {num} and is less than 6 and not 0")
 elif num > 5:
