@@ -2,6 +2,6 @@
 
 for letter in range(122, 96, -1):
     if letter % 2 == 0:
-        print("{}".format(chr(letter))
+        print("{}".format(chr(letter)))
     else:
         print("{}".format(chr(letter - 32)))
