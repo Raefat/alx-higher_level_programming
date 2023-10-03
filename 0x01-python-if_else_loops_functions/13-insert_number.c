@@ -2,9 +2,9 @@
 #include "lists.h"
 
 /**
- * insert_node - insert node in sorted linked list 
+ * insert_node - insert node in sorted linked list
  * @head: head of linked list
- * @n: number to add
+ * @number: number to add
  * Return: the new node
  */
 
@@ -28,5 +28,5 @@ listint_t *insert_node(listint_t **head, int number)
 		}
 		current = current->next;
 	}
-	return new_node;
+	return (new_node);
 }
