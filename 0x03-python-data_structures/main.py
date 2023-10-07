@@ -1,7 +1,13 @@
 #!/usr/bin/python3
-element_at = __import__('1-element_at').element_at
+print_matrix_integer = __import__('6-print_matrix_integer').print_matrix_integer
 
-my_list = [1, 2, 3, 4, 5]
-idx = 3
-print("Element at index {:d} is {}".format(idx, element_at(my_list, idx)))
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+print_matrix_integer(matrix)
+print("--")
+print_matrix_integer()
 
