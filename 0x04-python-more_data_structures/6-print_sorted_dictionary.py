@@ -1,3 +1,5 @@
 #!/usr/bin/python3
 def print_sorted_dictionary(a_dictionary):
-    return dict(sorted(a_dictionary.items()))
+    a_dict = sorted(a_dictionary.items())
+    for key, val in enumerate(a_dict):
+        print("{}: {}".format(dict(sorted(a_dictionary.items()))))
