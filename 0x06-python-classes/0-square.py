@@ -2,6 +2,7 @@
 
 """ Sqaure Module """
 
+
 class Square:
     """ Square Class """
     pass
