@@ -34,6 +34,6 @@ class Square:
         """ Prints the square """
         for i in range(1, self.__size ** 2 + 1):
             if i % self.__size == 0:
-                print("\n")
-            else:
                 print("#")
+            else:
+                print("#", end="")
